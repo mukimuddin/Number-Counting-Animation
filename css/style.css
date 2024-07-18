@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+body{
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left, #e23c1e, #4682b4);    
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    font-family: "Anton SC", sans-serif;
+    font-size: 80px;
+    color: white;
+}
+.devname{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: yellow;
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+section .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.counter i{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.counter{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    height: 350px;
+    width: 350px;
+    outline: 10px solid #ffffff;
+    border-radius: 30px;
+    background: linear-gradient(to left, #157937, #4682b4);    
+}
+.counter h2, .counter p{
+    font-size: 50px;
+    font-family: "Anton SC", sans-serif;
+    color: #fff;
+}
